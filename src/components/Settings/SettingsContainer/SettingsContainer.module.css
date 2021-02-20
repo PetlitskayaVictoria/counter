@@ -1,0 +1,27 @@
+.settingsContainer {
+    width: 400px;
+    margin-top: 15px;
+}
+
+.valueSettingsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+span {
+    font-size: 30px;
+}
+
+input {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.error {
+    border: 2px solid red;
+    background-color: pink;
+    outline: none;
+}
