@@ -13,7 +13,7 @@ function CounterContainer(props: CounterType) {
 
     const messageText = props.error ? "Incorrect value!" : props.showHint ? "enter values and press 'set'" : props.counterValue
 
-  return (
+    return (
     <div>
       <div>
             <span className={((props.counterValue === props.maxValue || props.error) ? classes.red : "")}>
