@@ -37,7 +37,7 @@ export const showHintAC = (showHint: boolean) => ({
     type: SHOW_HINT, payload: {showHint}
 } as const)
 
-type InitialStateType = {
+export type InitialStateType = {
     startValue: number
     maxValue: number
     counterValue: number
